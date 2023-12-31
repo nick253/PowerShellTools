@@ -9,7 +9,7 @@ foreach ($File in Get-ChildItem($PWD)) {
         # Write-Output($PSCommandPath)
         # Write-Output($MyInvocation.MyCommand.Name)
         # Write-Output($MyInvocation.ScriptName)
-        Start-Process -FilePath $File # -WorkingDirectory "E:\New folder\New folder\New folder (2)"
+        Start-Process -FilePath $File # -WorkingDirectory "C:\Users\nickb\Desktop\Scripts"
     }
 }
 Write-Output("Complete")
